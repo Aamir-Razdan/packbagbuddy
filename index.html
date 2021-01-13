@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>packbagbuddy</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon"  href="packbagbuddy-logo.png">
+
+	<!-- bootstrap -->
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+	<!-- <font awesome icon> -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+
+	<!-- javascript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+	<!-- <owlscript for card slider? -->
+
+		 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+		    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+
+</head>
+<body>
+     
+   <section id="top">
+   	    <section id="navbar">
+   	    	 
+         	<div class="login">
+         			 <a class="link-login" href="">Login</a>
+                    <a class="link-signup" href="">sign up</a><br>
+         		</div>
+         	
+         	<nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+         		<!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top"> -->
+
+   
+
+    <div class="container-fluid">
+         <a class="navbar-brand" href=""><img class="logo-image" src="logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   
+    
+   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+            <a class="nav-link" href="#">
+              Home
+            </a>
+             
+         </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+               Explore India
+            </a>
+             
+         </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+                Find us on
+            </a>
+             
+         </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+               Create Tour
+            </a>
+             
+         </li>
+        
+    </ul>
+   </div>
+</div>
+</nav>
+
+</section>
+<section id="image-slide-top">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+  	<a href="#">
+    <div class="carousel-item active top-image">
+    	
+      <img src="chader.jpg" class="d-block w-100" alt="...">
+		      <div class="carousel-caption text-on-image">
+		      	 <p style="margin-bottom: 0px;color:#F22E62; font-weight:700">you are a</p>
+		      <h1>Adventurer</h1>
+		      <h2 style="color:#09015f;font-weight:700;">I dare you lets complete the dare</h2>
+		      <button type="button" class="btn btn-primary">Book now</button>
+
+             </div>
+      </a>
+  
+    </div>
+    <div class="carousel-item top-image">
+    	<a href="#">
+      <img src="dance.jpg" class="d-block w-100" alt="...">
+       <div class="carousel-caption text-on-image">
+       	 <p>you are a</p>
+		      <h5 style="color:#312c51;font-weight:700;">Explore the India</h5>
+		      <h2 style="color:#09015f;font-weight:700;">See heaven on earth</h2>
+		      <button type="button" class="btn btn-primary">Book now</button>
+
+      </div>
+  </a>
+    </div>
+    <div class="carousel-item top-image top-image-nature">
+     <a href=""><img src="21.jpeg" class="d-block w-100" alt="...">
+       <div class="carousel-caption text-on-image">
+       	 <p>you are a</p>
+		      <h1>nature lover</h1>
+		      <h2>See the beauty of nature</h2>
+		      <button type="button" class="btn btn-primary">Book now</button>
+
+      </div></a>
+    </div>
+    <div class="carousel-item top-image">
+     <a href=""><img src="kedarnath2.jpg" class="d-block w-100" alt="..."style="height:1050px">
+       <div class="carousel-caption text-on-image">
+       	           <p>you are a</p>
+		      <h4>nature lover</h4>
+		      <h2>See the beauty of nature</h2>
+		      <button type="button" class="btn btn-primary">Book now</button>
+
+      </div></a>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+
+</section>
+
+         </section>
+
+
+    <!-- find your adventure section -->
+
+    <section id="adventure-section">
+          <section id="form-section">
+          	<div class="container-fluid">
+          		<h1 class="text-adventure">FIND YOUR ADVENTURE!</h1>
+          	<div class="row row1">
+          		
+          		<div class="col-lg-4 tour-search"style="width:300px;margin-right:20px">
+          				
+          		        <!-- <input type="text" name="fname"> -->
+          		        <input type="text" name="tour-search" value="">keyword
+          		        <!-- <label for="fname">keyword</label> -->
+                        <i class="fa fa-search fa-sm" aria-hidden="true" style="float: right;margin-top: -27px;margin-right: 10px; color: #b9c1d5;"></i>
+          		</div>
+
+          		<div class="col-lg-4 tour-search"style="width:300px;margin-right:20px">
+          			<!-- <label for="fname"></label> -->
+          		       <!-- <input type="text" name="fname"> -->
+          		        <div class="tour-destination">
+                            <select name="tour-destination" >
+                                <option value="">Destination</option>
+                                <option value="gujarat">Gujarat</option>
+                                <option value="himachal">Himachal Pradesh</option>
+                                <option value="leh-ladakh">Leh Ladakh</option>
+                                <option value="maharashtra">Maharashtra</option>
+                                <option value="rajasthan">Rajasthan</option>
+                                <option value="sikkim">Sikkim</option>
+                                <option value="uttarakhand">Uttarakhand</option>
+                            </select>
+                        </div>
+          		</div>
+          		<div class="col-lg-4 tour-search tour-destination"style="width:300px;">
+          			<label for="fname">Adventure Sport</label><br>
+          		       <!-- <input type="text" name="fname"> -->
+          		        <div class="tour-sport">
+                            <select name="adventure-sport">
+                                <option value=""></option>
+                                <option value="bike-trip">Bike Trip</option>
+                                <option value="campfire">Campfire</option>
+                                <option value="horse-riding">Horse Riding</option>
+                                <option value="paragliding">Paragliding</option>
+                                <option value="photography">Photography</option>
+                                <option value="rappelling">Rappelling</option>
+                                <option value="river-rafting">River Rafting</option>
+                                <option value="rock-climbing">Rock Climbing</option>
+                                <option value="scuba-diving">Scuba Diving</option>
+                                <option value="sightseeing">Sightseeing</option>
+                                <option value="skiing">Skiing</option>
+                                <option value="trekking">Trekking</option>
+                                <option value="wildlife-watching">Wildlife Watching</option>
+                                <option value="zip-lining">Zip Lining</option>
+                            </select>
+                        </div>
+          		</div>
+          	</div>
+          	<button type="button" class="btn btn-primary searchbtn">search</button>
+          	</div>
+          	
+          	
+          
+          	
+          		
+          
+
+         </section>
+
+
+          <section id="card-section">
+              
+          	<h1 class="card-header-text"> <i class="fas fa-plane"style="transform: rotate(-30deg);margin-left:10px;"></i>Adventure Trips</h1>
+          	<div class="slider owl-carousel">
+
+<!-- <card 1 -->
+          		 <div class="card">
+                            <div class="image">
+                           <img class="card-img-top" src="sky.jfif"  alt="...">
+                           <div class="offer">
+                           	<i class="discount-rupee fas fa-rupee-sign fa-sm"></i><p class="discount">500 OFF</p>
+                           </div>
+                           </div>
+							  <div class="card-body">
+							  	
+							  		
+                                              <h5 class="card-title">KASOOL GRAHAN TOSH</h5>
+							  		            <div class="price">
+                                               <i class="rupee-icon-1 fas fa-rupee-sign"></i><span class="price-in-digit">4,449</span><br>
+                                                   <i class="rupee-icon-2 fas fa-rupee-sign fa-2x"></i><span class="offer-price">3,999</span>
+                                                </div>
+                                                 <div class="time">
+                                                 <i class="clock-time far fa-clock"></i><span class="time-day">3 Days 4 Nights</span>
+                                                   </div>
+														<p class="rating">⭐⭐⭐⭐(1 Review)</p>
+
+							  		
+					</div>
+				</div>
+
+<!-- <cardd2> -->
+                        <div class="card">
+                           
+                            <div class="image">
+                           <img class="card-img-top" src="kedarnath.jpg"  alt="...">
+                           <div class="offer"style="background-color:#497feb">
+                           	<i class="discount-rupee fas fa-rupee-sign fa-sm"></i><p class="discount">1000 OFF</p>
+                           </div>
+                       		</div>
+							  <div class="card-body">
+							  	
+							  		
+                                              <h5 class="card-title">  KEDARNATH TOUR SPECIAL TOUR &nbsp;</h5>
+							  		            <div class="price">
+                                               <i class="rupee-icon-1 fas fa-rupee-sign"></i><span class="price-in-digit">10,229</span><br>
+                                                   <i class="rupee-icon-2 fas fa-rupee-sign fa-2x"></i><span class="offer-price">9,229</span>
+                                                </div>
+                                                 <div class="time">
+                                                 <i class="clock-time far fa-clock "></i><span class="time-day">5 Days, 4 Nights</span>
+                                                   </div>
+														<p class="rating">⭐⭐⭐⭐(1 Review)</p>
+
+							  		
+							  	                </div>
+							    
+							 
+      
+                    </div>
+
+
+                    <!-- third card -->
+
+                    <div class="card">
+                            <div class="image">
+                           <img class="card-img-top" src="waterfall.jfif"  alt="...">
+                           <div class="offer">
+                           	<i class="discount-rupee fas fa-rupee-sign fa-sm"></i><p class="discount">500 OFF</p>
+                           </div>
+                       </div>
+							  <div class="card-body">
+							  	
+							  		
+                                              <h5 class="card-title"> THE KARERI LAKE TREK &nbsp;</h5>
+							  		            <div class="price">
+                                               <i class="rupee-icon-1 fas fa-rupee-sign"></i><span class="price-in-digit">10,229</span><br>
+                                                   <i class="rupee-icon-2 fas fa-rupee-sign fa-2x"></i><span class="offer-price">9,229</span>
+                                                </div>
+                                                 <div class="time">
+                                                 <i class="clock-time far fa-clock "></i><span class="time-day">5 Days, 4 Nights</span>
+                                                   </div>
+														<p class="rating">⭐⭐⭐⭐(1 Review)</p>
+
+							  		
+							  	                </div>
+							    
+							 
+      
+            </div>
+
+
+           <!-- fourth kheerganga -->
+
+            <div class="card">
+                             <div class="image">
+		                           <img class="card-img-top" src="kheerganga.jfif"  alt="...">
+			                           <div class="offer">
+			                           	<i class="discount-rupee fas fa-rupee-sign fa-sm"></i><p class="discount">500 OFF</p>
+			                           </div>
+                            </div>
+							  <div class="card-body">
+							  	
+							  		
+                                              <h5 class="card-title"> KASOL – KALGA – KHEERGANGA &nbsp;</h5>
+							  		           <div class="price">
+                                                   <i class="rupee-icon-1 fas fa-rupee-sign"></i><span class="price-in-digit">5,250</span><br>
+                                                   <i class="rupee-icon-2 fas fa-rupee-sign fa-2x"></i><span class="offer-price">4,250</span>
+                                                </div>
+                                              <div class="time">
+                                                 <i class="clock-time far fa-clock "></i><span class="time-day">5 Days, 4 Nights</span>
+                                                 </div>
+														<p class="rating">⭐⭐⭐⭐(1 Review)</p>
+
+							  		
+							  </div>
+							    
+							 
+      
+             </div>
+
+          	 <!-- fifth chader frozen river -->
+
+            <div class="card">
+                             <div class="image">
+                                <img class="card-img-top" src="chader.jpg"  alt="...">
+                                <div class="offer"style="background-color:blue">
+			                           	<i class="discount-rupee fas fa-rupee-sign fa-sm"></i><p class="discount">2500 OFF</p>
+			                           </div>
+			                 </div>
+							  <div class="card-body">
+							  	
+							  		
+                                              <h5 class="card-title"> CHADAR FROZEN RIVER TREK &nbsp;</h5>
+							  		            <div class="price">
+                                               <i class="rupee-icon-1 fas fa-rupee-sign"></i><span class="price-in-digit">24,999</span><br>
+                                                   <i class="rupee-icon-2 fas fa-rupee-sign fa-lg"></i><span class="offer-price-chader">22,499</span>
+                                                </div>
+                                                 <div class="time">
+                                                 <i class="clock-time far fa-clock "></i><span class="time-day">9 Days, 8 Nights</span>
+                                                   </div>
+														<p class="rating">⭐⭐⭐⭐(1 Review)</p>
+
+							  		
+							  	                </div>
+							    
+							 
+      
+            </div>
+
+	            <!-- sixth card gordhana -->
+
+
+
+            <div class="card">
+                             <div class="image">
+                                <img class="card-img-top" src="rajgundhra.jfif"  alt="...">
+                                <div class="offer" style="background-color:blue">
+			                           	<i class="discount-rupee fas fa-rupee-sign fa-sm"></i><p class="discount">500 OFF</p>
+			                           </div>
+			                 </div>
+							  <div class="card-body">
+							  	
+							  		
+                                              <h5 class="card-title"> The Rajgundha 360° Trek –&nbsp;</h5>
+							  		            <div class="price">
+                                               <i class="rupee-icon-1 fas fa-rupee-sign"></i><span class="price-in-digit">4,999</span><br>
+                                                   <i class="rupee-icon-2 fas fa-rupee-sign fa-lg"></i><span class="offer-price-chader"> 3,999</span>
+                                                </div>
+                                                 <div class="time">
+                                                 <i class="clock-time far fa-clock "></i><span class="time-day">3 Days, 4 Nights</span>
+                                                   </div>
+														<p class="rating">⭐⭐⭐⭐(1 Review)</p>
+
+							  		
+							  	                </div>
+							    
+							 
+      
+            </div>
+               <!-- seventh-card-hamtha -->
+
+            <!--  -->
+              
+            <!-- eight-card-Matheran & Lonavala – Janmashtami Special Tour -->
+
+                <div class="card">
+                            <div class="image">
+                           <img class="card-img-top" src="mathron-janmastmi.jfif"  alt="...">
+                           <div class="offer"style="background-color:blue">
+                           	<i class="discount-rupee fas fa-rupee-sign fa-sm"></i><p class="discount">1000 OFF</p>
+                           </div>
+                           </div>
+							  <div class="card-body">
+							  	
+							  		
+                                              <h5 class="card-title">Matheran & Lonavala – Janmashtami Special Tour</h5>
+							  		            <div class="price">
+                                               <i class="rupee-icon-1 fas fa-rupee-sign"></i><span class="price-in-digit">4,449</span><br>
+                                                   <i class="rupee-icon-2 fas fa-rupee-sign fa-2x"></i><span class="offer-price">3,999</span>
+                                                </div>
+                                                 <div class="time">
+                                                 <i class="clock-time far fa-clock"></i><span class="time-day">4 Days, 3 Nights</span>
+                                                   </div>
+														<p class="rating">⭐⭐⭐⭐(1 Review)</p>
+
+							  		
+							  	</div>
+							    
+							 
+      
+ 		</div>
+
+              
+
+          	</div>
+ <!--   <button type="button" clss="btn btn-primary "></button> -->
+   <button type="button" class="btn btn-primary card-button">All trip</button>
+          </section>
+
+   </section>
+
+
+
+   <section id="sports">
+        <div class="sports-para">
+        	<i class="far fa-futbol fa-2x"></i>
+        	<h2 class="sports-line">Popular Sports</h2>
+        </div>
+   	<div class="sports-image">
+   		<img class="image-spots"src="zip lining.jpg">
+   		<img class="image-spots"src="rappelling.jpg">
+   		<img class="image-spots"src="rock climbing.jpg">
+   		<img class="image-spots"src="river rafting.jpg">
+   		<img class="image-spots"src="trekking.jpg">
+   	</div>
+   	<div>
+   		<button type="btn" class="btn btn-primary sports-btn">ALL ADVENTURE TRIP</button>
+   	</div>
+   </section>
+
+
+<section class="book-us">
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-lg-3 md-6">
+    				<div class="ist-text-bookus">
+    				<p class="bookus-para">Why book with us?</p>
+    				</div>
+    			</div>
+
+    				<div class="col-lg-3 md-6"><img src="icon-1.png">
+                     <p  class="inner-txt">BEST CUSTOMER SUPPORT</p>
+    			</div>
+    			<div class="col-lg-3 md-4"><img src="icon-2.png">
+    				<p class="inner-txt">VERIFIED OPERATORS</p>
+    			</div>
+    			<div class="col-lg-3 md-4"><img src="icon-3.png">
+    				<p class="inner-txt">SECURE PAYMENTS</p>
+    			</div>
+    			
+    			
+    		</div>
+
+    	</div>
+
+    </section>
+
+
+
+    <section class="book-us" style="background-color:#f2f2f2;height:150px">
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-lg-3 md-3">
+    			 <div class="ist-text-bookus" //style="background-color:#282828; margin-right:0px;">
+    				<p class="bookus-para">TRUSTED PARTNER</p>
+    				</div>
+    			</div>
+
+    				<div class="col-lg-3 md-3"><!-- <img src="icon-1.png">
+                     <p  class="inner-txt">BEST CUSTOMER SUPPORT</p> -->
+                     <img class="center" src="razorpay-logo-300x87.png">
+    			</div>
+    			<div class="col-lg-3 md-3"><!-- <img src="icon-2.png"> -->
+    				<!-- <p class="inner-txt">VERIFIED OPERATORS</p> -->
+    			  <img src="paytm-logo-300x133.png">
+    			</div>
+    			<div class="col-lg-3 md-3"><!-- <img src="icon-3.png">
+    				<p class="inner-txt">SECURE PAYMENTS</p> -->
+    				<img class="center" src="godutch-logo-300x64.png">
+    			</div>
+    			
+    			
+    		</div>
+    	</div>
+    </section>
+
+
+
+
+
+<section id="footer">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="logo-footer">
+
+				<img  class="logo-footer-image"src="logo.png">
+				<p class="footer-para">Adventure Travel,Events,Things To Do & more!</p>
+				<div id="powered">
+				<p class="powerd-para">powered by</p>
+				<img class="powerd-by-logo"src="msg-logo-blue.svg">
+			    </div>
+			   </div>
+			</div>
+			<div class="col-lg-4">
+				 <div class="vl"></div>
+				<ul class="unorderd-list">
+                       
+					<li class="list-item-footer">	<a href=""class="anchor">About Us<a></li>
+					<hr>
+					<li class="list-item-footer"><a href=""class="anchor">Contact Us</a></li>
+					<hr>
+					<li class="list-item-footer"><a href=""class="anchor">Travel Articles</a></li>
+					<hr>
+					<li class="list-item-footer"><a href=""class="anchor">Cancel Booking</a></li>
+					<hr>
+					<li class="list-item-footer"><a href=""class="anchor">Register as Partner</a></li>
+					<hr>
+					<li class="list-item-footer"><a href=""class="anchor">Legal Policies</a></li>
+					<hr>
+					<li class="list-item-footer"><a href="" class="anchor">Report a problem</a></li>
+				</ul>
+
+
+			</div>
+			<div class="col-lg-4">
+				<div class="cont-info">
+				<p class="contact-info-footer-2">CONTACT INFO</p>
+				<p  class="contact-info-para"><i class="fas fa-map-marker-alt icon-one"></i>Ghatlodia,Ahmedabad</p>
+				<p class="contact-info-para"></p>
+				<p class="contact-info-para">Phone Support : 10 AM to 6 PM</p>
+			    <p class="contact-info-para"><i class="fas fa-phone-alt icon-one"></i>+91 78741 27809</p>
+			    
+			    <p class="mail"><i class="fas fa-envelope icon-one"></i>contact@packbagbuddy.com</p>
+			    <h5 class="contact-info-footer-2">CONNECT WITH US</h5>
+			    <div id="icon">
+			    <i class="fab fa-facebook icon"></i>
+			    <i class="fab fa-twitter icon"></i>
+			    <i class="fab fa-instagram icon"></i>
+			    <i class="fab fa-youtube icon"></i>
+			    </div>
+
+
+			    </div>
+
+			</div>
+		</div>
+
+	</div>
+	
+</section>
+<section id="footer-bottom">
+        
+      <div class="f">
+      	<p>© PackBagBuddy 2020. All Rights Reserved</p>
+      	<p>Powered by Infraveo</p>
+      </div>
+	</section>
+							    
+
+
+
+<!-- <section class="brand">
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-lg-3">
+    				<div class="ist-text-bookus">
+    				<p class="bookus-para">Why book with us?</p>
+    				</div>
+    			</div>
+    			<div class="col-lg-3">
+    				
+                     <p  class="brand-logo">BEST CUSTOMER SUPPORT</p>
+    			</div>
+    			<div class="col-lg-3">
+    				
+    				<p class="brand-logo">VERIFIED OPERATORS</p>
+    			</div>
+    			<div class="col-lg-3">
+    				
+    				<p class="brand-logo">SECURE PAYMENTS</p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+ -->
+
+
+
+  <!--   <section class="brand">
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-lg-3">
+    				<h2>Trusted Partner</h2>
+    			</div>
+    			<div class="col-lg-3">
+                      <img src="">
+    			</div>
+    			<div class="col-lg-3">
+    				<img src="">
+    			</div>
+    			<div class="col-lg-3">
+    				<img src="">
+    			</div>
+    		</div>
+    	</div>
+    </section> -->
+    <section class="footer">
+
+    </section>
+
+
+<script>
+   	$(".slider").owlCarousel({
+   		loop:true,
+   		autoplay:true,
+   		autoplayTimeout:2000,//2000ms=2s
+   		autoplayHoverPause:true,
+
+   	})
+   </script>
+
+</body>
+</html>

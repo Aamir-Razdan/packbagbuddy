@@ -1,0 +1,521 @@
+.anchor{
+	text-decoration: none;
+	color:#ffff;
+}
+.anchor:hover{
+	color:#ffff;
+}
+h1{
+	color:#000;
+}
+#navbar{
+	/*opacity:0.1;
+	filter:alpha(opacity=50);*/
+	/*background-color: #000; opacity: 0.5; filter: alpha(opacity=50);*/
+	position:relative;
+	/*z-index:2;*/
+}
+.logo-image{
+	width: 220px;
+}
+.navbar{
+	padding:100px;
+	/*position:relative;
+	left:470px;
+	opacity:0.2;*/
+}
+.nav-item{
+	margin-left:15px;
+}
+.login{
+	background-color:#212529;
+	padding: 30px 0px;
+	/*float: right;*/
+
+	
+}
+#image-slide-top{
+	/*position:relative;
+	z-index:1;*/
+}
+.link-login{
+	/*margin-left: auto;*/
+	position:absolute;
+	/*left:1250px;*/
+	left:80%;
+	color:#ffff;
+	text-decoration: none;
+}
+.link-signup{
+	position:relative;
+	/*left:1150px;*/
+	left:75%;
+	display: inline-block;
+	margin: auto;
+	color:#ffff;
+	text-decoration: none;
+
+}
+.top-image{
+	height:700px;
+}
+.text-on-image{
+	width:40%;
+	position:relative;
+	/*top:180px;
+	right:130px;*/
+	top:10%;
+	right:59%;
+}
+/*findyour adventure section*/
+
+#adventure-section{
+	/*padding:30px;*/
+}
+#form-section{
+	background-image: url("search-bg-top.jpg");
+	background-repeat:no-repeat;
+	padding:100px 190px ;
+}
+       .text-adventure{
+       	color:#fff;
+       	text-align:center;
+         margin-bottom:35px;
+       
+       }
+.row1{
+	margin:10px;
+
+}
+.searchbtn{
+	width:400px;
+	padding-top:100px;
+     height: 20px
+	margin-top:8px;
+}
+.tour-destination{
+	/*background-color:black;*/
+}
+.tour-search{
+	/*margin:0 10px;*/
+	/*margin-right:10px;*/
+	/*padding:10px;*/
+	 width:300px;
+    background-color: #585d6b;
+}
+.tour-search input{
+    font-size: 14px;
+    width: 250px;
+    height:20px;
+    padding: 10px 17px;
+    outline: none;
+    background-color:#585d6b;
+    color:#b9c1d5;
+    border: 0px;
+    display: block;
+    
+}
+.tour-search select{
+    font-size: 14px;
+    width: 250px;
+    height:20px;
+    padding: 10px 17px;
+    outline: none;
+    background-color:#585d6b;
+    color:#b9c1d5;
+    border: 0px;
+    display: block;
+    
+}
+label{
+	color:#fff;
+	/*margin-bottom: 15px;*/
+}
+
+
+
+
+
+
+
+
+
+
+/*<card section>*/
+
+
+#card-section{
+	margin-top:0;
+	background-image:url("search-bg.jpg");
+	background-repeat:no-repeat;
+	height:850px;
+}
+.card-header-text{
+	color:#fff;
+	text-align: center;
+	padding-top:90px;
+	margin-bottom:90px;
+
+}
+
+
+.card{
+      width:22rem;
+      /*margin-left:150px;*/
+      margin-right:150px;
+  /*   padding:10px;*/
+}
+.card-button{
+	position:relative;
+	left:45%;
+	padding:30px;
+	width:130px;
+	height:40px;
+	border-radius:20%;
+}
+.card-img-top{
+    /* width:70px;*/
+	height:220px;
+}
+.card-title{
+	width:60%;
+	font-size:18px;
+	font-weight:800;
+	margin-top:10px;
+	margin-left:5px;
+	display: inline-block;
+}
+.price{
+	margin-left:30px;
+	width:40%;
+	position:relative;
+	left:180px;
+	top:-50px;
+}
+.price-in-digit{
+	color:#aaaaaa;
+	margin-left:5px;
+	text-decoration: line-through;
+	font-size:20px;
+	position:relative;
+	left:41px;
+}
+.offer-price{
+	display:inline-block;
+	font-size:33px;
+	margin-left:5px;
+	color:#98acf8;
+	font-weight:bold;
+
+}
+.rupee-icon-1{
+	position:relative;
+	left:40px;
+	color:#aaaaaa;
+}
+.rupee-icon-2{
+	height:10px;
+	color:#98acf8;
+}
+.time{
+	position:absolute;
+	bottom:60px;
+	font-size:15px;
+}
+.rating{
+	position:absolute;
+	bottom:10px;
+}
+.clock-time{
+	margin-right:10px;
+	color: blue;
+
+}
+.time-day{
+	font-size:15px;
+	font-weight: 600;
+	color:#aaaaaa;
+	letter-spacing: 2px;
+}
+.offer-price-chader{
+	display:inline-block;
+	font-size:28px;
+	margin-left:10px;
+	color:#98acf8;
+	font-weight:bold;
+
+}
+.offer{
+	/*display: inline-block;*/
+	background-color:#cc7351;
+	position:absolute;
+	height:40px;
+	width:110px;
+	top:40px;
+	padding:5px;
+	
+}
+.discount{
+	display:inline-block;
+	color:#fff;
+	font-weight:600;
+}
+.discount-rupee
+{
+	margin-left:10px;
+	/*margin-right:5px;*/
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+/*sports-section*/
+
+.sport-image{
+	margin:0;
+}.image-spots{
+	margin-left: -5px;
+	width:305px;
+}
+.sports-para{
+    text-align:center;
+    margin:100px 0px 30px 0px;
+
+}
+.sports-line{
+	display: inline-block;
+	 margin-left:20px;
+	 font-weight: 800;
+
+}
+.sports-btn{
+
+    margin:40px 0px;
+	position:relative;
+	left:45%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*book us*/
+.book-us{
+	background-color:rgb(3, 108, 219);
+	height:200px;
+	margin:30px 0;
+}
+.ist-text-bookus{
+	background-color:#4263c1;
+	margin-left:0px;
+	height:150px;
+	width:370px;
+}
+.bookus-para{
+	/*margin-left:150px;*/
+	color:#fff;
+	font-size:20px;
+	font-weight:5000;
+	width:50%;
+	position:relative;
+	top:40px;
+	left:160px;
+}
+.inner-txt{
+	color:#fff;
+	display: inline-block;
+	width:70%;
+	/*position:relative;
+	top:50px;*/
+	margin-left:20px;
+	margin-top:50px;
+}
+.a23{
+       /*   padding:10px;*/
+}
+.center{
+	padding: 30px 0;
+    text-align: center;
+    color: #e1e1e1;
+    line-height: 1.7;
+}
+/*brand*/
+
+#card-section{
+	padding:30px 100px;/*this can do it your all content in the middle*/
+}
+
+
+
+/*footer*/
+#footer{
+	padding:100px 250px;
+	background-color:#303030;
+}
+.logo-footer-image{
+
+	width:200px;
+	position:relative;
+	left:20%;
+}
+.footer-para{
+	font-size:13px;
+	letter-spacing: 1px;
+	color:#e1e1e1;
+	margin-top: 5px;
+}
+#powered{
+	margin-top:90px;
+
+}
+.powerd-by-logo{
+	position:relative;
+	/*margin-top:70px;*/
+	left:30%;
+}
+.powerd-para{
+	color:#e1e1e1;
+	text-align: center;
+
+
+}
+.unorderd-list{
+	list-style-type: none;
+	color:#ffff;
+}
+.list-item-footer{
+	font-size: 15px;
+     margin-bottom:10px;
+     font-weight: 700;
+}
+.contact-info-footer-2{
+	color:#f05454;
+	margin-left:30%;
+	margin-top:30px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.contact-info{
+	/*font-color:white;*/
+
+}
+.mail{
+	margin-left:25%;
+	color:#fff;
+	position:relative;
+	display: inline-block;
+}
+#icon{
+	margin-left:40%;
+	margin-top:20px;
+}
+.icon{
+	color:#fff;
+	/*margin-left:25%;*/
+	padding:5px;
+}
+.contact-info-para{
+	color:#fff;
+	margin-left:25%;
+}
+.icon-one{
+	margin-right:5px;
+}
+.vl{
+	/* border-left: 6px solid green;
+  height: 500px;
+  position:relative;
+  display: inline-block;
+ */
+/*  margin-left: -3px;*/
+ /* top: 0;*/
+}
+
+
+
+/*footer 2*/
+
+
+#footer-bottom{
+	background-color:black;
+	padding-bottom:20px;
+}
+.f{
+	padding-top:15px;
+	color:#fff;
+	text-align:center;
+}
+
+
+@media (max-width: 885px){
+
+
+/*.navbar{
+	padding:0px;
+}*/
+.login{
+	padding-top:10px;
+}
+.link-login{
+	position:relative;
+	left:270px;
+}
+.link-signup{
+	position:relative;
+	left:150px;
+}
+.top-image{
+	margin:0;
+}
+..text-adventure{
+	text-align:none;
+}
+.top-image{
+	height:400px;
+
+}
+@media (max-width: 1155px){
+	.top-image{
+	height:500px;
+}
+}
+
+@media (max-width: 685px){
+	.logo-image{
+		width:130px;
+	}
+	.top-image{
+	height:240px;
+
+}
+}
+@media (max-width: 405px){
+	
+	
+}
+}
+.images_by_me{
+	transform: rotate(180deg);
+	opacity: 50%;
+}
